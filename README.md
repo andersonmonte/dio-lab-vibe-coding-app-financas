@@ -1,6 +1,10 @@
 # 💸 App de Finanças Pessoais do Anderson com Vibe Coding
 
-PRD refinado no Copilot Web:
+Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
+
+---
+
+## 📝 PRD Refinado no Copilot Web
 
 ```markdown
 # PRD – App de Organização de Finanças Pessoais
@@ -51,44 +55,48 @@ Plano de MVP contendo:
 - Inclusão em testes: Garantir que pelo menos 20% dos participantes dos testes de usabilidade sejam pessoas com deficiência.
 ```
 
-Interações com o Lovable:
+---
 
-> Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+## 🗨️ Interações com o Lovable
 
-> O menu lateral está disponível apenas na tela "Conversas". Por favor, disponibilize o menu lateral também para as telas "Metas", "Relatórios" e "Acessibilidade".
+Prompts utilizados:
+- Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+- O menu lateral está disponível apenas na tela "Conversas". Por favor, disponibilize o menu lateral também para as telas "Metas", "Relatórios" e "Acessibilidade".
+- A aplicação está criando uma nova conversa toda vez que a tela "Conversas" é carregada. Por favor, conserte esse bug, pois uma nova conversa só deve ser criada quando não existir nenhuma ainda para o usuário. Além disso, adicione a opção de editar o título da conversa, ao lado da opção de excluir, que já existe.
+- Por favor, salve o título da conversa após a edição, de modo que o título não seja substituído pelo texto dos prompts posteriores.
+- Após salvar o novo título da conversa, e navegar para outra tela qualquer, ao voltar para a tela "Conversas", o título da conversa recém-editada volta a ser "Sem Título". Por favor, conserte esse bug.
 
-> A aplicação está criando uma nova conversa toda vez que a tela "Conversas" é carregada. Por favor, conserte esse bug, pois uma nova conversa só deve ser criada quando não existir nnehuma ainda para o usuário. Além disso, adicione a opção de editar o título da conversa, ao lado da opção de excluir, que já existe.
+---
 
-> Por favor, salve o título da conversa após a edição, de modo que o título não seja substituído pelo texto dos prompts posteriores.
-
-> Após salvar o novo título da conversa, e navegar para outra tela qualquer, ao voltar para a tela "Conversas", o título da conversa recém-editada volta a ser "Sem Título". Por favor, conserte esse bug.
-
-Resultado final no Lovable: https://bento-assistente-financas.lovable.app/
+## 🎯 Resultado final no Lovable:  
+[https://bento-assistente-financas.lovable.app/](https://bento-assistente-financas.lovable.app/)
 
 <img width="1916" height="916" alt="image" src="https://github.com/user-attachments/assets/2c80f9fd-a88f-4041-ac26-ff9c3554ce53" />
 
-# Funcionalidades do App de Finanças Pessoais
+---
 
-## Chat de registro
-Permite inserir gastos, receitas ou metas diretamente em linguagem natural.
+## 🔍 Funcionalidades do App de Finanças Pessoais
+
+### Chat de registro
+Permite inserir gastos, receitas ou metas diretamente em linguagem natural.  
 Exemplo: "Gastei 45 no mercado ontem".
 
-## Classificação automática
+### Classificação automática
 As transações são categorizadas automaticamente (ex.: mercado, transporte, lazer).
 
-## Metas financeiras
+### Metas financeiras
 O usuário pode definir objetivos como "Quero juntar 500 reais até o fim do mês" e acompanhar o progresso.
 
-## Relatórios personalizados
+### Relatórios personalizados
 Geração de resumos simples e visuais dos gastos e ganhos, adaptados ao perfil do usuário.
 
-## Agente Financeiro
+### Agente Financeiro
 Assistente integrado que oferece dicas de economia e recomendações práticas.
 
-## Design universal
+### Design universal
 Interface pensada para ser intuitiva e inclusiva, garantindo boa experiência para diferentes perfis de usuários.
 
-## Acessibilidade digital
+### Acessibilidade digital
 Práticas específicas para apps conversacionais:
 - Compatibilidade com leitores de tela
 - Contraste adequado de cores
@@ -98,13 +106,15 @@ Práticas específicas para apps conversacionais:
 - Navegação por teclado
 - Opções de personalização (tamanho de fonte, contraste, velocidade)
 
-# Reflexão
+---
 
-## O que funcionou bem?
-O refinamento do PRD, feito previamente no Copilot, ajudou a criar, no Lovable, um MVP bastante organizado e funcional, o que me ajudou a concentrar esforços no ajuste e refinamento das funcionalidades básicas implementadas, através dos prompts subsequentes.
+## 🧠 Reflexão
 
-## O que não funcionou como o esperado?
-Esperava poder interagir mais vezes gratuitamente com o Lovable, dado que ainda existem alguns bugs de navegação a serem consertados. Entretanto, a experiência foi muito útil para aprender mais sobre Vibe Coding. Além disso, posso aguardar a recarga diária dos créditos grátis do Lovable, e assim tentar novas interações para consertar os bugs pendentes.
+### O que funcionou bem?
+O refinamento do PRD, feito previamente no Copilot, ajudou a criar, no Lovable, um MVP bastante organizado e funcional. Isso permitiu concentrar esforços no ajuste e refinamento das funcionalidades básicas implementadas, através dos prompts subsequentes.
 
-## O que aprendeu sobre conversar com IAs?
+### O que não funcionou como o esperado?
+Esperava poder interagir mais vezes gratuitamente com o Lovable, dado que ainda existem alguns bugs de navegação a serem consertados. Entretanto, a experiência foi muito útil para aprender mais sobre Vibe Coding. Além disso, posso aguardar a recarga diária dos créditos grátis do Lovable e tentar novas interações para consertar os bugs pendentes.
+
+### O que aprendeu sobre conversar com IAs?
 Aprendi que é semelhante a conversar com uma pessoa, ou no caso do Lovable, com um desenvolvedor. Quanto mais detalhes e clareza você der, melhor será a interação, e melhores serão os produtos desenvolvidos.
